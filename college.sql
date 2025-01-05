@@ -25,4 +25,16 @@ SELECT DISTINCT city FROM student1;
 SELECT grade FROM student1;
 
 
+SELECT * 
+FROM student1 
+WHERE marks > 80;
+
+SELECT * 
+FROM student1
+WHERE city = "Dhaka";
+
+SELECT *
+FROM student1
+WHERE marks > 80 AND city ="Jashore";
+
 
