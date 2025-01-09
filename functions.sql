@@ -1,0 +1,10 @@
+SELECT upper('abc');
+SELECT FIRST_NAME, upper(FIRST_NAME)
+FROM employees;
+SELECT RADIANS(90);
+SELECT cos(RADIANS(90));
+SELECT cos(0);
+SELECT acos(1);
+SELECT PI();
+SELECT round(12.567,2);
+SELECT RAND();
