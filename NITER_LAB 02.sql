@@ -42,3 +42,6 @@ CREATE TABLE loan
     FOREIGN KEY (bid) REFERENCES branch(bid),
     FOREIGN KEY (anum) REFERENCES account(acnumber)
 );
+
+SELECT *FROM customer
+WHERE fname='Sushmoy1';
